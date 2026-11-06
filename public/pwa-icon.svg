@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F17"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34D399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <rect x="32" y="32" width="448" height="448" rx="96" fill="none" stroke="#1F2937" stroke-width="8"/>
+  
+  <!-- POS Cash Register / Terminal Icon -->
+  <path d="M128 140 C128 120 144 104 164 104 L348 104 C368 104 384 120 384 140 L384 260 L128 260 Z" fill="#1E293B" stroke="#334155" stroke-width="8"/>
+  <!-- Screen Display -->
+  <rect x="160" y="136" width="192" height="88" rx="12" fill="#022C22" stroke="#10B981" stroke-width="4"/>
+  <text x="256" y="190" font-family="monospace" font-size="28" font-weight="900" fill="#34D399" text-anchor="middle">R$ 0,00</text>
+  
+  <!-- Barcode Scanner Beam -->
+  <line x1="160" y1="236" x2="352" y2="236" stroke="#EF4444" stroke-width="4" stroke-dasharray="8 6"/>
+
+  <!-- Base and Drawer -->
+  <path d="M96 280 L416 280 L448 400 L64 400 Z" fill="#111827" stroke="#1F2937" stroke-width="8"/>
+  <rect x="192" y="324" width="128" height="24" rx="6" fill="#10B981"/>
+  
+  <!-- Keys / Numpad -->
+  <circle cx="130" cy="316" r="12" fill="#374151"/>
+  <circle cx="162" cy="316" r="12" fill="#374151"/>
+  <circle cx="130" cy="348" r="12" fill="#374151"/>
+  <circle cx="162" cy="348" r="12" fill="#374151"/>
+</svg>
